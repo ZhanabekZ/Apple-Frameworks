@@ -11,6 +11,13 @@
 		D82FD4122AE1342600B2C077 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FD4112AE1342600B2C077 /* ContentView.swift */; };
 		D82FD4142AE1342700B2C077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82FD4132AE1342700B2C077 /* Assets.xcassets */; };
 		D82FD4172AE1342700B2C077 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82FD4162AE1342700B2C077 /* Preview Assets.xcassets */; };
+		D82FD41E2AE136B100B2C077 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FD41D2AE136B100B2C077 /* Framework.swift */; };
+		D82FD4202AE1373E00B2C077 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FD41F2AE1373E00B2C077 /* ContentViewModel.swift */; };
+		D82FD4222AE138FD00B2C077 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FD4212AE138FD00B2C077 /* FrameworkTitleView.swift */; };
+		D82FD4242AE13E3600B2C077 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FD4232AE13E3600B2C077 /* FrameworkDetailView.swift */; };
+		D8D2BE192AE18F23000BCB2A /* SafariWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2BE182AE18F23000BCB2A /* SafariWebView.swift */; };
+		D8D2BE1B2AE19506000BCB2A /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2BE1A2AE19506000BCB2A /* DismissButton.swift */; };
+		D8D2BE1D2AE196B9000BCB2A /* GoToWebsiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2BE1C2AE196B9000BCB2A /* GoToWebsiteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		D82FD4112AE1342600B2C077 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D82FD4132AE1342700B2C077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D82FD4162AE1342700B2C077 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D82FD41D2AE136B100B2C077 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		D82FD41F2AE1373E00B2C077 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D82FD4212AE138FD00B2C077 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		D82FD4232AE13E3600B2C077 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		D8D2BE182AE18F23000BCB2A /* SafariWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebView.swift; sourceTree = "<group>"; };
+		D8D2BE1A2AE19506000BCB2A /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		D8D2BE1C2AE196B9000BCB2A /* GoToWebsiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToWebsiteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,10 @@
 		D82FD40E2AE1342600B2C077 /* Apple-Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8D2BE202AE1994C000BCB2A /* ViewModels */,
+				D8D2BE1F2AE19941000BCB2A /* Views */,
+				D8D2BE1E2AE19930000BCB2A /* Models */,
 				D82FD40F2AE1342600B2C077 /* Apple_FrameworksApp.swift */,
-				D82FD4112AE1342600B2C077 /* ContentView.swift */,
 				D82FD4132AE1342700B2C077 /* Assets.xcassets */,
 				D82FD4152AE1342700B2C077 /* Preview Content */,
 			);
@@ -65,6 +81,51 @@
 				D82FD4162AE1342700B2C077 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8D2BE1E2AE19930000BCB2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D82FD41D2AE136B100B2C077 /* Framework.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8D2BE1F2AE19941000BCB2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8D2BE222AE199A0000BCB2A /* Buttons */,
+				D8D2BE212AE19962000BCB2A /* CustomViews */,
+				D82FD4112AE1342600B2C077 /* ContentView.swift */,
+				D82FD4232AE13E3600B2C077 /* FrameworkDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8D2BE202AE1994C000BCB2A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D82FD41F2AE1373E00B2C077 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D8D2BE212AE19962000BCB2A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D82FD4212AE138FD00B2C077 /* FrameworkTitleView.swift */,
+				D8D2BE182AE18F23000BCB2A /* SafariWebView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		D8D2BE222AE199A0000BCB2A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D8D2BE1A2AE19506000BCB2A /* DismissButton.swift */,
+				D8D2BE1C2AE196B9000BCB2A /* GoToWebsiteButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82FD4202AE1373E00B2C077 /* ContentViewModel.swift in Sources */,
 				D82FD4122AE1342600B2C077 /* ContentView.swift in Sources */,
+				D82FD4242AE13E3600B2C077 /* FrameworkDetailView.swift in Sources */,
+				D82FD41E2AE136B100B2C077 /* Framework.swift in Sources */,
 				D82FD4102AE1342600B2C077 /* Apple_FrameworksApp.swift in Sources */,
+				D8D2BE1D2AE196B9000BCB2A /* GoToWebsiteButton.swift in Sources */,
+				D82FD4222AE138FD00B2C077 /* FrameworkTitleView.swift in Sources */,
+				D8D2BE1B2AE19506000BCB2A /* DismissButton.swift in Sources */,
+				D8D2BE192AE18F23000BCB2A /* SafariWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +343,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +373,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
