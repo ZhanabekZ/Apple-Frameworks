@@ -21,12 +21,11 @@ struct FrameworkDetailView: View {
                 DismissButton(isShowingDetailView: $isShowingDetailView)
             }
             VStack {
-                Spacer()
                 FrameworkTitleView(framework: framework)
                 Spacer()
                 Text(framework.description)
-                    .font(.system(size: 17))
-                    .fontWeight(.regular)
+                    .font(.system(size: 15))
+                    .fontWeight(.light)
                     .foregroundColor(colorScheme == .dark ? Color.white : Color.black)
                     .padding()
                 Spacer()
